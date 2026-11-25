@@ -198,7 +198,8 @@
         <textarea id="bproblem" placeholder="Например: стук при повороте руля, вибрация на скорости 80 км/ч…"></textarea>
         <div class="hint">Если приезжаете на плановое ТО — поле можно не заполнять.</div>
       </div>
-      <input type="text" name="website" id="website" class="hp" tabindex="-1" autocomplete="off">
+      <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"
+       style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;opacity:0;border:0;padding:0;pointer-events:none;">
       <button type="submit" class="btn">Записаться</button>
       <div class="success" id="success">✓ Заявка отправлена! Перезвоним в течение 15 минут в рабочее время, чтобы подтвердить запись.</div>
     </form>
